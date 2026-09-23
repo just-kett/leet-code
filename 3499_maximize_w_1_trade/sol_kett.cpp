@@ -22,7 +22,7 @@ public:
         }
         l.push_back(s.substr(start));
         for (int j = 0; j < l.size(); j++) {
-            if (l[j][0] == '1' && j-1>=0 && stoi(l[j-1]) == 0 && j+1<l.size() && stoi(l[j+1]) == 0) {
+            if (l[j][0] == '1' && j-1>=0 && l[j-1][0] == '0' && j+1<l.size() && l[j+1][0] == '0') {
                 length = l[j-1].length() + l[j+1].length();
                 if (length > max_length) {
                     max_length = length;
