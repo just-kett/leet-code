@@ -8,8 +8,8 @@ public:
 
     int maxActiveSectionsAfterTrade(string s) {   
         int start = 0;
-        int length;
-        int max_length = 0;
+        int length = -1;
+        int max_length = -1;
         int sum = 0;
         vector<string> l;
         for (int i = 0; i < s.length(); i++) {
@@ -24,9 +24,6 @@ public:
         for (int j = 0; j < l.size(); j++) {
             if (l[j][0] == '1' && j-1>=0 && stoi(l[j-1]) == 0 && j+1<l.size() && stoi(l[j+1]) == 0) {
                 length = l[j-1].length() + l[j+1].length();
-                int nstart = j-1;
-                int nend = j+1;
-                int nmid = j;
                 if (length > max_length) {
                     max_length = length;
                 }
