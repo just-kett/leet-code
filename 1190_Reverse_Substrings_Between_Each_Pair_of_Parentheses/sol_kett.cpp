@@ -25,5 +25,6 @@ public:
                 cur += c;
             }
         }
+        return cur;
     }
 };
