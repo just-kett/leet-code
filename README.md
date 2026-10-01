@@ -6,7 +6,9 @@ Luật rừng đặt ra để quy định cách repo vận hành và các điề
 
 Mỗi ngày làm 1 bài từ mức độ **EASY** đến **MEDIUM** vào các ngày thứ. Riêng **thứ 7** và **Chủ nhật** sẽ có 1 bài **HARD** để làm. Nếu muốn làm nhiều bài **HARD** hơn thì tự lên leet mà tìm, ở đây chúng tôi cần sự kiên trì, không fomo.
 
-Bài mới sẽ được push vào **7:00** đến **8:00** và hạn nộp là cùng giờ ngày hôm sau. Riêng bài **HARD** dành cho ngày cuối tuần thì nộp vào sáng **thứ Hai** cùng giờ.
+Bài mới sẽ được push vào **7:00** đến **8:00** và hạn nộp là cùng giờ ngày hôm sau. Riêng bài **HARD** dành cho ngày cuối tuần thì nộp vào sáng **thứ Hai** cùng giờ. 
+
+Yêu cầu khi commit phải đúng folder bài và đặt tên file để nhận danh. 
 
 ## ❓ FAQ
 
