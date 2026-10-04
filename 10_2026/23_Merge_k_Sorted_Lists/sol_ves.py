@@ -12,10 +12,10 @@ class Solution:
             while curr:
                 heapq.heappush(min_heap, curr.val)
                 curr = curr.next
-        dummy = ListNode(0)
+        res = ListNode(0)
         tail = dummy
         while min_heap:
             val = heapq.heappop(min_heap)
             tail.next = ListNode(val)
             tail = tail.next
-        return dummy.next
+        return res.next
