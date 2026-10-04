@@ -13,7 +13,7 @@ class Solution:
                 heapq.heappush(min_heap, curr.val)
                 curr = curr.next
         res = ListNode(0)
-        tail = dummy
+        tail = res
         while min_heap:
             val = heapq.heappop(min_heap)
             tail.next = ListNode(val)
