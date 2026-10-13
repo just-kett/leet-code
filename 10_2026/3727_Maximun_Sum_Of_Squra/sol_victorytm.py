@@ -1,4 +1,4 @@
-# Dell biet dp
+# Dell biet dp, dell biet toi uu
 class Solution:
     def maxAlternatingSum(self, nums: List[int]) -> int:
         # define dp[i][j]: first i elements, only j elements is selected to the positive sides
